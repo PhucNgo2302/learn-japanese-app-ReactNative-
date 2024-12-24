@@ -6,7 +6,6 @@ export enum Transliterations {
   HEP = 0,
   KUN = 1,
   NIH = 2,
-  RUS = 3,
 }
 
 interface TransliterationsContextType {

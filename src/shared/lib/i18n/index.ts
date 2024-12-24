@@ -12,12 +12,6 @@ import VietNam from "./languages/vietnam";
 
 const resources = {
 	en: { translation: English },
-	ru: { translation: Russian },
-	de: { translation: German },
-	es: { translation: Spanish },
-	fr: { translation: French },
-	it: { translation: Italian },
-	pt: { translation: Portuguese },
 	vn: { translation: VietNam },
 };
 

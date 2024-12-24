@@ -35,7 +35,6 @@ const SettingsTransliterations: React.FC = () => {
     t("transliterationSystems.hepburn"),
     t("transliterationSystems.kunreiShiki"),
     t("transliterationSystems.nihonShiki"),
-    t("transliterationSystems.russianPhoneticTransliteration"),
   ];
 
   const onPress = () => {
@@ -56,9 +55,6 @@ const SettingsTransliterations: React.FC = () => {
           break;
         case 3:
           onUpdateTransliterations(Transliterations.NIH);
-          break;
-        case 4:
-          onUpdateTransliterations(Transliterations.RUS);
           break;
         default:
           break;

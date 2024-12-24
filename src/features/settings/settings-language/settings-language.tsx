@@ -37,12 +37,6 @@ const SettingsLanguage: React.FC = () => {
     const options = [
       t('alert.cancel'),
       LanguageName.en,
-      LanguageName.es,
-      LanguageName.fr,
-      LanguageName.ru,
-      LanguageName.pt,
-      LanguageName.de,
-      LanguageName.it,
       LanguageName.vn,
     ];
     const cancelButtonIndex = 0;
@@ -57,24 +51,6 @@ const SettingsLanguage: React.FC = () => {
           setLanguage(ShortLanguage.EN);
           break;
         case 2:
-          setLanguage(ShortLanguage.ES);
-          break;
-        case 3:
-          setLanguage(ShortLanguage.FR);
-          break;
-        case 4:
-          setLanguage(ShortLanguage.RU);
-          break;
-        case 5:
-          setLanguage(ShortLanguage.PT);
-          break;
-        case 6:
-          setLanguage(ShortLanguage.DE);
-          break;
-        case 7:
-          setLanguage(ShortLanguage.IT);
-          break;
-        case 8:
           setLanguage(ShortLanguage.VN);
         default:
           break;

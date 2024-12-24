@@ -24,8 +24,7 @@ const SettingsPage: React.FC = () => {
     <View style={{ flex: 1 }} >
       <ScrollView contentContainerStyle={styles.scroll}>
         <SettingsSection>
-          <SettingsStatistics />
-          <SettingsHaptic />
+      
           <SettingsTheme />
         </SettingsSection>
 
